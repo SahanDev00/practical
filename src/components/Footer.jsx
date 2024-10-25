@@ -5,7 +5,7 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from 'react
 
 const Footer = () => {
   return (
-    <div className='w-full h-[1200px] lg:h-[500px] relative border-t'>
+    <div className='w-full h-[1200px] lg:h-[500px] relative border-t Dark:bg-gray-200'>
         <img src={img} className='w-full h-full' alt="" />
         <div className='w-[60%]  h-full absolute left-10 lg:left-60 top-0'>
             <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 w-full pt-5'>
