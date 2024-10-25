@@ -20,7 +20,7 @@ const Navbar = () => {
                     <img src="https://s.shangri-la.com/sl-fe-public/imgs/logo/header_logo_sh_en.png" className='w-48' alt="Logo" />
                 </div>
                 
-                {/* Full-size Navbar items, hidden on smaller screens */}
+          
                 <div className='lg:block hidden'>
                     <ul className='flex gap-3 items-center'>
                         <li className='flex justify-center items-center gap-2 border-r text-sm font-semibold border-black pr-2 '><FaUser size={15}/> Sign In</li>
@@ -33,13 +33,13 @@ const Navbar = () => {
                     </ul>
                 </div>
                 
-                {/* Hamburger Icon for small screens */}
+             
                 <div className='lg:hidden'>
                     {!Navbar ? <IoIosMenu onClick={toggleNavbar} size={30}/> : <IoMdClose onClick={toggleNavbar} size={30} /> }
                 </div>
             </div>
 
-            {/* Small screen dropdown menu */}
+           
             <div className={`${Navbar ? 'block' : 'hidden'} lg:hidden w-full bg-white border-t`}>
                 <ul className='flex flex-col items-start gap-2 p-4'>
                     <li className='flex items-center gap-2 text-sm font-semibold'><FaUser size={15}/> Sign In</li>

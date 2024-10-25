@@ -32,7 +32,7 @@ const Dropdown = () => {
 
                 
                 {hoveredItem === index && (
-                  <div className='absolute top-[100%] left-0 bg-white p-4 text-stone-800 w-screen h-[100px]'>
+                  <div className='absolute top-[100%] left-0 bg-white p-4 text-stone-800 w-screen h-[100px]' >
                     <p>Details about {item}</p>
                     <p>Additional information or links.</p>
                   </div>
