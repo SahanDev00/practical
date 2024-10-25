@@ -6,7 +6,7 @@ const Offers = () => {
     <div className='w-[80%] mt-10 lg:mt-0 mx-auto min-h-screen flex flex-col items-center justify-center'>
         <h1 className='text-3xl text-center font-semibold'>Offers</h1>
         <div className='mt-4 grid sm:grid-cols-2 grid-cols-1 lg:grid-cols-3 gap-5 w-full'>
-            <div className='w-[90%] mx-auto relative border flex flex-col items-center justify-center h-[400px]'>
+            <div className='w-[90%] mx-auto relative bg-white border flex flex-col items-center justify-center h-[400px]'>
                 <p className='absolute top-2 text-sm bg-white/80 rounded-l-full px-2 right-0'>Member Exclusive</p>
                 <img src="https://c1.wallpaperflare.com/preview/684/949/168/al-abrar-mecca-saudi-arabia-hotel-building.jpg" className='w-full h-[150px] object-cover' alt="" />
                 <p className='text-xs text-center bg-gray-300 rounded-full px-2 py-1 mt-3 '>stay</p>
@@ -20,7 +20,7 @@ const Offers = () => {
                 </div>
             </div>
 
-            <div className='w-[90%] relative mx-auto border flex flex-col items-center justify-center h-[400px]'>
+            <div className='w-[90%] relative mx-auto border bg-white flex flex-col items-center justify-center h-[400px]'>
                 <p className='absolute top-2 text-sm bg-white/80 rounded-l-full px-2 right-0'>Member Exclusive</p>
                 <img src="https://c1.wallpaperflare.com/preview/684/949/168/al-abrar-mecca-saudi-arabia-hotel-building.jpg" className='w-full h-[150px] object-cover' alt="" />
                 <p className='text-xs text-center bg-gray-300 rounded-full px-2 py-1 mt-3 '>stay</p>
@@ -34,7 +34,7 @@ const Offers = () => {
                 </div>
             </div>
 
-            <div className='w-[90%] mx-auto border flex flex-col items-center justify-center h-[400px]'>
+            <div className='w-[90%] mx-auto border flex flex-col bg-white items-center justify-center h-[400px]'>
                 <img src="https://c1.wallpaperflare.com/preview/684/949/168/al-abrar-mecca-saudi-arabia-hotel-building.jpg" className='w-full h-[150px] object-cover' alt="" />
                 <p className='text-xs text-center bg-gray-300 rounded-full px-2 py-1 mt-3 '>stay</p>
                 <div className='w-full h-[140px] flex flex-col justify-center items-center'>

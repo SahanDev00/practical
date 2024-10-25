@@ -23,12 +23,12 @@ const DarkMode = () => {
 
   return (
     <div className='relative'>
-      <MdOutlineLightMode
+      <MdDarkMode
         size={25}
         onClick={changeTheme}
-        className={`w-12 absolute drop-shadow-[1px_1px_1px_rgba(0,0,0,0.1)] cursor-pointer ${theme === 'dark' ? 'opacity-0' : 'opacity-100 text-white'}`}
+        className={`w-12 absolute drop-shadow-[1px_1px_1px_rgba(0,0,0,0.1)] cursor-pointer ${theme === 'dark' ? 'opacity-0' : 'opacity-100 text-BLACK'}`}
       />
-      <MdDarkMode
+      <MdOutlineLightMode
         size={25}
         onClick={changeTheme}
         className={`w-12 drop-shadow-[1px_1px_1px_rgba(0,0,0,0.1)] cursor-pointer ${theme === 'dark' ? 'opacity-100' : 'opacity-0'}`}
