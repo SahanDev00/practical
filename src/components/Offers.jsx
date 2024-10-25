@@ -3,9 +3,9 @@ import React from 'react'
 const Offers = () => {
 
   return (
-    <div className='w-[80%] mx-auto h-screen flex flex-col items-center justify-center'>
+    <div className='w-[80%] mt-10 lg:mt-0 mx-auto min-h-screen flex flex-col items-center justify-center'>
         <h1 className='text-3xl text-center font-semibold'>Offers</h1>
-        <div className='mt-4 grid grid-cols-3 gap-5 w-full'>
+        <div className='mt-4 grid sm:grid-cols-2 grid-cols-1 lg:grid-cols-3 gap-5 w-full'>
             <div className='w-[90%] mx-auto relative border flex flex-col items-center justify-center h-[400px]'>
                 <p className='absolute top-2 text-sm bg-white/80 rounded-l-full px-2 right-0'>Member Exclusive</p>
                 <img src="https://c1.wallpaperflare.com/preview/684/949/168/al-abrar-mecca-saudi-arabia-hotel-building.jpg" className='w-full h-[150px] object-cover' alt="" />

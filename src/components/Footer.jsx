@@ -5,10 +5,10 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from 'react
 
 const Footer = () => {
   return (
-    <div className='w-full h-[500px] relative border-t'>
+    <div className='w-full h-[1200px] lg:h-[500px] relative border-t'>
         <img src={img} className='w-full h-full' alt="" />
-        <div className='w-[60%]  h-full absolute left-60 top-0'>
-            <div className='grid grid-cols-3 w-full pt-5'>
+        <div className='w-[60%]  h-full absolute left-10 lg:left-60 top-0'>
+            <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 w-full pt-5'>
                 <div className='w-full'>
                     <h1 className='text-2xl italic text-purple-700'>About</h1>
                     <ul className='space-y-2 mt-2 text-gray-600'>
@@ -24,7 +24,7 @@ const Footer = () => {
                         <li>item 10</li>
                     </ul>
                 </div>
-                <div className='w-full'>
+                <div className='w-full mt-8 lg:mt-0'>
                     <h1 className='text-2xl italic text-purple-700'>Get in Touch</h1>
                     <ul className='space-y-2 mt-2 text-gray-600'>
                         <li>item 1</li>
@@ -38,7 +38,7 @@ const Footer = () => {
                         <li>item 3</li>
                     </ul>
                 </div>
-                <div className='w-full'>
+                <div className='w-full mt-8 lg:mt-0'>
                     <h1 className='text-2xl italic text-purple-700'>Follow Us</h1>
                     <div className='w-[70%] mt-2 flex justify-between items-center'>
                         <FaFacebook className='cursor-pointer hover:text-purple-600' size={20}/>

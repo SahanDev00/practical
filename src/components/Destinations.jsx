@@ -3,7 +3,7 @@ import lanka from '../images/lanka.png'
 
 const Destinations = () => {
   return (
-    <div className='w-full h-screen flex flex-col justify-center items-center'>
+    <div className='w-full min-h-screen flex flex-col justify-center items-center'>
         <h1 className='text-purple-700 text-4xl italic'>OUR DESTINATIONS</h1>
         <select className='w-[700px] h-[40px] border mt-2' name="Destinations" id="">
             <option value="1">Item 1</option>
